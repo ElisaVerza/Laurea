@@ -1,10 +1,14 @@
 ﻿<html>
 <head>
     <link href="style.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="./script.js"></script>
+    <!--
+    <script type="text/javascript" src="./script.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js">
+        
+    </script>
 </head>
-<body>
-    <canvas height="1" id="confetti" width="1"></canvas>
+<body id="element">
+    <!--<canvas height="1" id="confetti" width="1"></canvas>
     <a class="iprodev" href="http://iprodev.com" target="_blank">iprodev.com</a>
     <div class="container center">
         <div class="card" style="width: 80%;">
@@ -15,6 +19,8 @@
             </p>
             <button>Next</button>
         </div>
-    </div>
+    </div>-->
+    <script>party.confetti(element);</script>
+
 </body>
 </html>
