@@ -1,7 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+body {
+    font-family: 'Source Code Pro', monospace;
+}
+.title_style {
+    font-family: 'Press Start 2P', cursive;
+    line-height: 2;
+    font-size: 250%;
+}
 * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text_style{
+    margin: 2% 5% auto 5%;
+    font-size: 200%;
+}
+
 .container {
     width: 90%;
     min-height: 80vh;
