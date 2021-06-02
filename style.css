@@ -60,8 +60,8 @@ body {
     flex-direction: column;
     padding: 20px;
     margin: 5px;
-    -webkit-box-shadow: -20px -20px 0px 0px #fb968b;
-    box-shadow: -20px -20px 0px 0px #fb968b;
+    -webkit-box-shadow: -20px -20px 0px 0px #CC0000;
+    box-shadow: -20px -20px 0px 0px #CC0000;
     border-radius: 10px;
     border: solid;
     border-color: black;
@@ -89,7 +89,7 @@ body {
         display: block;
         border: none;
         height: 3px;
-        background-color: salmon;
+        background-color: darkred;
         margin: 0px;
         -webkit-animation-name: line-show;
         /* Safari 4.0 - 8.0 */
@@ -123,7 +123,7 @@ body {
 
     .card button {
         border: none;
-        background-color: salmon;
+        background-color: darkred;
         width: 50%;
         margin: 10px auto;
         padding: 10px 30px;
@@ -174,54 +174,24 @@ body {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes shadow-show {
     from {
-        -webkit-box-shadow: 0px 0px 0px 0px #e0e0e0;
-        box-shadow: 0px 0px 0px 0px #e0e0e0;
+        -webkit-box-shadow: 0px 0px 0px 0px #CC0000;
+        box-shadow: 0px 0px 0px 0px #CC0000;
     }
 
     to {
-        -webkit-box-shadow: -20px -20px 0px 0px #fb968b;
-        box-shadow: -20px -20px 0px 0px #fb968b;
+        -webkit-box-shadow: -20px -20px 0px 0px #CC0000;
+        box-shadow: -20px -20px 0px 0px #CC0000;
     }
 }
 /* Standard syntax */
 @keyframes shadow-show {
     from {
-        -webkit-box-shadow: 0px 0px 0px 0px #e0e0e0;
-        box-shadow: 0px 0px 0px 0px #e0e0e0;
+        -webkit-box-shadow: 0px 0px 0px 0px #CC0000;
+        box-shadow: 0px 0px 0px 0px #CC0000;
     }
 
     to {
-        -webkit-box-shadow: -20px -20px 0px 0px #fb968b;
-        box-shadow: -20px -20px 0px 0px #fb968b;
+        -webkit-box-shadow: -20px -20px 0px 0px #CC0000;
+        box-shadow: -20px -20px 0px 0px #CC0000;
     }
 }
-#confetti {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-}
-
-
-a.iprodev {
-    line-height: normal;
-    font-family: Varela Round, sans-serif;
-    font-weight: 600;
-    text-decoration: none;
-    font-size: 13px;
-    color: #A7AAAE;
-    position: absolute;
-    left: 20px;
-    bottom: 20px;
-    border: 1px solid #A7AAAE;
-    padding: 12px 20px 10px;
-    border-radius: 50px;
-    transition: all .1s ease-in-out;
-    text-transform: uppercase;
-}
-
-    a.iprodev:hover {
-        background: #A7AAAE;
-        color: white;
-    }
