@@ -3,7 +3,9 @@
 
 body {
     font-family: 'Source Code Pro', monospace;
+    display: none;
 }
+
 .title_style {
     font-family: 'Press Start 2P', cursive;
     line-height: 2;
@@ -24,6 +26,7 @@ body {
 .text_style{
     margin: 2% 5% auto 5%;
     font-size: 200%;
+    font-weight: bold;
 }
 
 .container {
