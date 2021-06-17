@@ -96,7 +96,7 @@ body {
         border: none;
         height: 3px;
         background-color: #282828;
-        margin: 0px;
+        margin: 5%;
         -webkit-animation-name: line-show;
         /* Safari 4.0 - 8.0 */
         -webkit-animation-duration: 0.3s;
@@ -127,7 +127,7 @@ body {
         animation-duration: 1.5s;
     }
 
-    .card button {
+    .card a {
         border: none;
         background-color: #282828;
         width: 50%;
@@ -137,6 +137,9 @@ body {
         font-family: 'Noto Sans KR', sans-serif;
         border-radius: 50px;
         text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes line-show {
